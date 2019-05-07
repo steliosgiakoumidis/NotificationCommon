@@ -1,6 +1,5 @@
 C:\Repositories\NotificationCommon\NotificationCommon\bin\Debug\netstandard2.0\NotificationCommon.deps.json
 C:\Repositories\NotificationCommon\NotificationCommon\bin\Debug\netstandard2.0\NotificationCommon.dll
-C:\Repositories\NotificationCommon\NotificationCommon\obj\Debug\netstandard2.0\NotificationCommon.csprojAssemblyReference.cache
 C:\Repositories\NotificationCommon\NotificationCommon\obj\Debug\netstandard2.0\NotificationCommon.csproj.CoreCompileInputs.cache
 C:\Repositories\NotificationCommon\NotificationCommon\obj\Debug\netstandard2.0\NotificationCommon.AssemblyInfoInputs.cache
 C:\Repositories\NotificationCommon\NotificationCommon\obj\Debug\netstandard2.0\NotificationCommon.AssemblyInfo.cs

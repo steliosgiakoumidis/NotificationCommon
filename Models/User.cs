@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NotificationCommon.Models
+﻿namespace NotificationCommon.Models
 {
     public class User
     {
@@ -10,5 +6,13 @@ namespace NotificationCommon.Models
         public string Username { get; set; }
         public string Email { get; set; }
         public string SMS { get; set; }
+        public User() { }
+        public User(int id, string username, string email, string Sms)
+        {
+            Id = id;
+            Username = username;
+            Email = email;
+            SMS = Sms;
+        }
     }
 }

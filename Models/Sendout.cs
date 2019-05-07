@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace NotificationCommon.Models
 {
@@ -19,5 +17,24 @@ namespace NotificationCommon.Models
         public string Parameters { get; set; }
         public string Username { get; set; }
         public string UserGroup { get; set; }
+
+        public Sendout() { }
+
+        public Sendout(int id, string reminderName, DateTime startDate, 
+            Enums.RepetitionFrequency repetitionFrequency, Enums.ExecutionTime executionTime, 
+            Enums.DayOfTheWeek dayOfTheWeek, DateTime? lastRunAt, string parameters,
+            string username, string userGroup)
+        {
+            Id = id;
+            ReminderName = reminderName;
+            StartDate = startDate;
+            RepetitionFrequency = repetitionFrequency;
+            ExecutionTime = executionTime;
+            DayOfTheWeek = dayOfTheWeek;
+            LastRunAt = lastRunAt;
+            Parameters = parameters;
+            Username = username;
+            UserGroup = userGroup;
+        }
     }
 }
