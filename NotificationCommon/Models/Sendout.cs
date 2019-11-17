@@ -17,13 +17,14 @@ namespace NotificationCommon.Models
         public string Parameters { get; set; }
         public string Username { get; set; }
         public string UserGroup { get; set; }
+        public string TemplateName { get; set; }
 
         public Sendout() { }
 
         public Sendout(int id, string reminderName, DateTime startDate, 
             Enums.RepetitionFrequency repetitionFrequency, Enums.ExecutionTime executionTime, 
             Enums.DayOfTheWeek dayOfTheWeek, DateTime? lastRunAt, string parameters,
-            string username, string userGroup)
+            string username, string userGroup, string templateName)
         {
             Id = id;
             ReminderName = reminderName;
@@ -35,6 +36,7 @@ namespace NotificationCommon.Models
             Parameters = parameters;
             Username = username;
             UserGroup = userGroup;
+            TemplateName = templateName;
         }
     }
 }
